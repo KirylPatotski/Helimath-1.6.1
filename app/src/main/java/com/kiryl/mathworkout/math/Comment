@@ -1,0 +1,15 @@
+Normally you would use lifecycle observers by using LifeData,
+but it is not necessary to use it here, because if the
+individual fragments get destroyed the data should not be saved.
+Only if the game is over by loosing 5 hearts this should happen.
+And you also can't interact more with the UI than selecting the correct answers.
+
+
+    Credits
+CC 0 Sounds
+https://freesound.org/people/TheBuilder15/sounds/415762/
+https://freesound.org/people/LittleRainySeasons/sounds/335908/
+https://freesound.org/people/Raclure/sounds/483598/
+
+Particles and Confetti
+https://github.com/ultimateHandsomeBoy666/Particle/blob/main/

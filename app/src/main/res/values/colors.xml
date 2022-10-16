@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_color">#FFC103</color>
+    <color name="black">#000000</color>
+    <color name="overlay">#6D000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="kiryl_dark_blue">#0A0A2D</color>
+    <color name="transparent">#0FFF</color>
+    <color name="dark_grey">#3C3C3C</color>
+    <color name="default_navi_bar_color">#FFCA28</color>
+    <color name="text_hint_color">#696969</color>
+    <color name="green">#00FF00</color>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mathe + Helicopter</string>
+    <string name="current_language">🇩🇪</string>
+    //Difficulties + The ID should start with a capital letter here
+    <string name="Easy">Einfach</string>
+    <string name="Baby">Kinderleicht</string>
+    <string name="Normal">Normal</string>
+    <string name="Hard">Hart</string>
+    <string name="difficulty">Schwierigkeit</string>
+
+    //Game modes
+    <string name="Classic">Klassischer Modus</string>
+    <string name="Answer">Antwort Modus</string>
+    <string name="True_False">Wahr/Falsch Modus</string>
+    //Game mode screenshots
+    <string name="classic_mode_screenshot">Classic mode screenshot</string>
+    <string name="true_false_mode_screenshot">True/False mode screenshot</string>
+    <string name="answer_mode_screenshot">Answer mode screenshot</string>
+
+    //Chart
+    <string name="show_last_n_elements_in_diagramm">Im Diagramm sollen … Runden angezeigt werden</string>
+    <string name="all">alle</string>
+
+    //Streak
+    <string name="streak_saver_title">Willst du 500💎 bezahlen, um deine Tages Serie zu retten?</string>
+    <string name="streak_saver_text">Deine Tage Serie beschreibt, wie viele Tage du in Folge geübt hast. Ansonsten wird diese zurückgesetzt auf 0!</string>
+
+    //Game mechanics
+    <string name="Next_Round">Nächste Runde</string>
+    <string name="Share">Teilen +10💎</string>
+    <string name="Equals">Entspricht…</string>
+    <string name="Shuffle">Mischung</string>
+    <string name="Selected">Gewählt</string>
+    <string name="Select">Wählen</string>
+
+    //Stats
+    <string name="stats">Statistiken</string>
+    <string name="total_answers">Gesamte Antworten:</string>
+    <string name="correct_answers">Richtige Antworten:</string>
+    <string name="total_score">Gesamtes Ergebnis:</string>
+    <string name="times_played">Male gespielt:</string>
+    <string name="diamonds_ever_earned">Diamanten insgesamt:</string>
+
+    //Settings
+    <string name="settings">Einstellungen</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="vibrations">Vibrationen</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="disclaimer">Haftungsausschluss</string>
+    <string name="language">Sprache</string>
+    <string name="sound">Ton</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="done">Fertig</string>
+    <string name="privacy_policy">Datenshutzerklärung</string>
+    <string name="change_language">Ändere die Sprache</string>
+    <string name="info">Info</string>
+
+    //App navigation
+    <string name="main_menu">Hauptmenü</string>
+    <string name="select_a_game_mode">Wähle einen Spielmodus</string>
+    <string name="change_difficulty">⬇⬇ Ändere die Schwierigkeit ⬇⬇</string>
+    <string name="play_button">Spiel Konpf</string>
+    <string name="send_email_using">Sende Email mit…</string>
+    <string name="email">Email</string>
+    <string name="credits_Text">Ersteller, Idee, Programmierer, Designer \nKiryl Patotski \n \nVielen dank, an alle, die mich unterstützten.</string>
+    <string name="diamonds_tomorrow">Diamanten Morgen</string>
+
+    <string name="button_to_open_games">Konpf um Speile zu öffnen</string>
+    <string name="button_to_open_the_start_screen">Knopf um den Startbildschirm zu öffnen</string>
+    <string name="button_to_open_miscellaneous">Knopf um Sonstiges zu öffnen</string>
+
+    <string name="Infinite">Unendlich</string>
+    <string name="Correct">Richtig</string>
+    <string name="True">Wahr</string>
+    <string name="False">Falsch</string>
+    <string name="View">Ansicht</string>
+    <string name="Get_more_diamonds">Bekomme mehr Diamanten</string>
+    <string name="get_app">App holen</string>
+
+    //Helicopter Game
+    <string name="Yes">Ja</string>
+    <string name="Exit">Verlassen</string>
+    <string name="Continue">Fortsetzen</string>
+    <string name="Play">Spielen</string>
+    <string name="Shop">Laden</string>
+    <string name="Miscellaneous">Sonstiges</string>
+    <string name="Buy">Kaufen</string>
+    <string name="Too_poor">Zu arm</string>
+    <string name="Already_purchased">Bereits gekauft</string>
+    <string name="Successfully_purchased">Erfolgreich gekauft</string>
+    <string name="Game_Over">Game Over</string>
+    <string name="Pay_1_to_revive">Bzahle 1📀, um dich widerzubeleben</string>
+    <string name="You_got_a_refund">Du wurdest Rückerstattet</string>
+    <string name="Something_went_wrong">Etwas lief Schief</string>
+    <string name="No">Nein</string>
+    <string name="Get">Bekomme 📀</string>
+    <string name="You_have_0_tokens">Du hast 0📀</string>
+    <string name="Blue_Helicopter">Blauer Hubschrauber</string>
+    <string name="White_Helicopter">Weißer Hubschrauber</string>
+    <string name="Gray_Helicopter">Grauer Hubschrauber</string>
+    <string name="Green_Helicopter">Grüner Hubschrauber</string>
+    <string name="Red_Helicopter">Roter Hubschrauber</string>
+    <string name="Start_your_game_with_1_rocket">Beginne das Spiel mit 1 Rakete</string>
+    <string name="_Hearts">4 Herzen</string>
+    <string name="Nice_Color">Coole Farbe</string>
+    <string name="Starter_Helicopter">Starter Hubschrauber</string>
+    <string name="Added_10_diamonds">+10💎</string>
+    <string name="day_s">Tag(e)</string>
+    <string name="Default_Helicopter">Ursprünglicher Hubschrauber</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math + Helicopter</string>
+    <string name="current_language">🇺🇸</string>
+    //Difficulties + The ID should start with a capital letter here
+    <string name="Easy">Easy</string>
+    <string name="Baby">Baby</string>
+    <string name="Normal">Normal</string>
+    <string name="Hard">Hard</string>
+    <string name="difficulty">Difficulty</string>
+
+    //Game modes
+    <string name="Classic">Classic Mode</string>
+    <string name="Answer">Answer Mode</string>
+    <string name="True_False">True/False Mode</string>
+    //Game mode screenshots
+    <string name="classic_mode_screenshot">Classic mode screenshot</string>
+    <string name="true_false_mode_screenshot">True/False mode screenshot</string>
+    <string name="answer_mode_screenshot">Answer moder screenshot</string>
+
+    //Chart
+    <string name="show_last_n_elements_in_diagramm">Show last … elements in the diagram</string>
+    <string name="all">all</string>
+
+    //Streak
+    <string name="streak_saver_title">Pay 500💎 to restore streak?</string>
+    <string name="streak_saver_text">Your steak is how many days you practiced in a row. Otherwise your streak will be set to 0</string>
+
+    //Game mechanics
+    <string name="Next_Round">Next round</string>
+    <string name="Share">Share +10💎</string>
+    <string name="Equals">Equals…</string>
+    <string name="Shuffle">Shuffle</string>
+    <string name="Selected">Selected</string>
+    <string name="Select">Select</string>
+    <string name="red_heart" translatable="false">♥</string>
+
+    //Stats
+    <string name="stats">Stats</string>
+    <string name="total_answers">Total answers:</string>
+    <string name="correct_answers">Correct answers:</string>
+    <string name="total_score">Total score:</string>
+    <string name="times_played">Times played:</string>
+    <string name="diamonds_ever_earned">Diamonds ever earned:</string>
+
+    //Settings
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="vibrations">Vibrations</string>
+    <string name="confirm">Confirm</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="language">Language</string>
+    <string name="sound">Sound</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="change_language">Change Language</string>
+    <string name="info">Info</string>
+
+    //App navigation
+    <string name="main_menu">Main menu</string>
+    <string name="select_a_game_mode">Select a game mode</string>
+    <string name="change_difficulty">⬇⬇ Change Difficulty ⬇⬇</string>
+    <string name="play_button">Play Button</string>
+    <string name="send_email_using">Send email using…</string>
+    <string name="credits_Text">Creator, idea, programmer, designer \nKiryl Patotski \n \nSpecial thanks to those who supported me</string>
+    <string name="email">Email</string>
+    <string name="diamonds_tomorrow">Diamonds tomorrow</string>
+
+    <string name="button_to_open_games">Button to open games</string>
+    <string name="button_to_open_the_start_screen">Button to open start screen</string>
+    <string name="button_to_open_miscellaneous">Button to open miscellaneous</string>
+
+    <string name="Infinite">Infinite</string>
+    <string name="Correct">Correct</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="View">View</string>
+    <string name="Get_more_diamonds">Get more diamonds</string>
+    <string name="get_app">Get app</string>
+
+    //Helicopter Game
+    <string name="Yes">Yes</string>
+    <string name="Exit">Exit</string>
+    <string name="Continue">Continue</string>
+    <string name="Play">Play</string>
+    <string name="Shop">Shop</string>
+    <string name="Miscellaneous">Miscellaneous</string>
+    <string name="Buy">Buy</string>
+    <string name="Too_poor">Too poor</string>
+    <string name="Already_purchased">Already purchased</string>
+    <string name="Successfully_purchased">Successfully purchased</string>
+    <string name="Game_Over">Game Over</string>
+    <string name="Pay_1_to_revive">Pay 1📀 to revive</string>
+    <string name="You_got_a_refund">You got a refund</string>
+    <string name="Something_went_wrong">Something went wrong</string>
+    <string name="No">No</string>
+    <string name="Get">Get 📀</string>
+    <string name="You_have_0_tokens">You have 0📀</string>
+    <string name="Blue_Helicopter">Blue Helicopter</string>
+    <string name="White_Helicopter">White Helicopter</string>
+    <string name="Gray_Helicopter">Gray Helicopter</string>
+    <string name="Green_Helicopter">Green Helicopter</string>
+    <string name="Red_Helicopter">Red Helicopter</string>
+    <string name="Start_your_game_with_1_rocket">Start the game with 1 rocket</string>
+    <string name="_Hearts">4 hearts</string>
+    <string name="Nice_Color">Nice color</string>
+    <string name="Starter_Helicopter">Starter helicopter</string>
+    <string name="Added_10_diamonds">+10💎</string>
+    <string name="day_s">day streak</string>
+    <string name="Default_Helicopter">Default Helicopter</string>
+
+
+
+
+</resources>

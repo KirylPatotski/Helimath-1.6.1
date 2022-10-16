@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/page_0"
+        android:enabled="true"
+        android:icon="@drawable/stats_icon"
+        android:title="@string/stats" />
+
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="@string/main_menu" />
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/helicopter_icon"
+        android:title="@string/Play"/>
+
+
+</menu>

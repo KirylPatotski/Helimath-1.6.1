@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme">
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/progressText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme">
+
+            <ImageView
+                android:id="@+id/classicImage"
+                android:layout_width="108dp"
+                android:layout_height="192dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/classic_mode_screenshot"
+                android:contentDescription="@string/classic_mode_screenshot"
+                android:background="@color/white"/>
+            <Button
+                android:id="@+id/classicButton"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/default_color"
+                android:text="@string/Select"
+                android:textSize="9sp"
+                app:layout_constraintTop_toBottomOf="@id/classicImage"
+                app:layout_constraintStart_toStartOf="@id/classicImage"
+                android:textColor="@color/white"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/answerImage"
+                android:layout_width="108dp"
+                android:layout_height="192dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/classicImage"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/answer_mode_screenshot"
+                android:contentDescription="@string/answer_mode_screenshot"
+                android:background="@color/white"/>
+
+            <Button
+                android:id="@+id/answerButton"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/default_color"
+                android:text="@string/Select"
+                android:textSize="9sp"
+                app:layout_constraintTop_toBottomOf="@id/answerImage"
+                app:layout_constraintStart_toStartOf="@id/answerImage"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:id="@+id/trueFalseImage"
+                android:layout_width="108dp"
+                android:layout_height="192dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/answerImage"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/true_false_light_screenshot"
+                android:contentDescription="@string/true_false_mode_screenshot"
+                android:background="@color/white"
+                />
+            <Button
+                android:id="@+id/trueFalseButton"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/default_color"
+                android:text="@string/Select"
+                android:textSize="9sp"
+                app:layout_constraintTop_toBottomOf="@id/trueFalseImage"
+                app:layout_constraintStart_toStartOf="@id/trueFalseImage"
+                android:textColor="@color/white"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:max="100"
+        android:progress="0"
+        android:scaleY="7"
+        android:progressTint="@color/default_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <CheckBox
+        android:id="@+id/ShuffleCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/Shuffle"
+        android:layoutDirection="rtl"
+        android:buttonTint="@color/default_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/infiniteCheckBox"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/infiniteCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@color/default_color"
+        android:minHeight="48dp"
+        android:text="@string/Infinite"
+        android:layoutDirection="rtl"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView" />
+
+    <Button
+        android:id="@+id/gameStartFragmentPlayButton"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ShuffleCheckBox"
+        android:backgroundTint="@color/default_color"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/Play"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text=""
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/progress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/change_difficulty"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/menu"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/difficulty">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:id="@+id/editText"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

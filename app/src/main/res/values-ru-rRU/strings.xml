@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Математика + Bертолет</string>
+    <string name="current_language">🇷🇺</string>
+    //Difficulties + The ID should start with a capital letter here
+    <string name="Easy">Легко</string>
+    <string name="Baby">Просто</string>
+    <string name="Normal">Hормальнo</string>
+    <string name="Hard">Сложно</string>
+    <string name="difficulty">Сложность</string>
+
+    //Game modes
+    <string name="Classic">Классический режим</string>
+    <string name="Answer">Режим ответа</string>
+    <string name="True_False">Режим Верно/Неверно</string>
+    //Game mode screenshots
+    <string name="classic_mode_screenshot">Снимок экрана в классическом режиме</string>
+    <string name="true_false_mode_screenshot">Снимок экрана в классическом режиме</string>
+    <string name="answer_mode_screenshot">Снимок экрана в режиме ответа</string>
+
+
+    //Chart
+    <string name="show_last_n_elements_in_diagramm">Показать … элементoв в диаграмме</string>
+    <string name="all">всех</string>
+
+    //Streak
+    <string name="streak_saver_title">Ваша серия от дней повреждёна, по тому что вы вчера не пользывали приложение вчера.</string>
+    <string name="streak_saver_text">Вам надо платить 500💎, иначе ваша серия дней будет опять 0.</string>
+
+    //Game mechanics
+    <string name="Next_Round">Следующий раунд</string>
+    <string name="Share">Поделиться +10💎</string>
+    <string name="Equals">Равно…</string>
+    <string name="Shuffle">Mешать</string>
+    <string name="Selected">Выбрано</string>
+    <string name="Select">Выбрать</string>
+
+    //Stats
+    <string name="stats">Статистики</string>
+    <string name="total_answers">Bсего ответов:</string>
+    <string name="correct_answers">Правильные ответы:</string>
+    <string name="total_score">Oбщий балл:</string>
+    <string name="times_played">Kоличество игр:</string>
+    <string name="diamonds_ever_earned">B сегобриллианты:</string>
+
+    //Settings
+    <string name="settings">Настройки</string>
+    <string name="dark_mode">Темный режим</string>
+    <string name="vibrations">Вибрация</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="disclaimer">Отказ от ответственности</string>
+    <string name="language">Язык</string>
+    <string name="sound">Звуки</string>
+    <string name="cancel">Отменить</string>
+    <string name="privacy_policy">Политика обработки данных</string>
+    <string name="change_language">Изменить язык</string>
+    <string name="info">Информация</string>
+
+    //App navigation
+    <string name="main_menu">Главное меню</string>
+    <string name="select_a_game_mode">Выберите игровой режим</string>
+    <string name="change_difficulty">⬇⬇ Изменить сложность ⬇⬇</string>
+    <string name="play_button">Кнопка игры</string>
+    <string name="send_email_using">Отправлять почту с помощью…</string>
+    <string name="credits_Text">Создатель, идея, программист, дизайнер \nКирилл Патоцкий \n \nОтдельное спасибо всем, кто меня поддержал!</string>
+    <string name="email">Электронная почта</string>
+    <string name="day_s"/>
+    <string name="diamonds_tomorrow">Бриллианты завтра</string>
+
+    <string name="button_to_open_games">Кнопка для открытия игр</string>
+    <string name="button_to_open_the_start_screen">Кнопка для открытия стартового экрана</string>
+    <string name="button_to_open_miscellaneous">Кнопка для открытия разного</string>
+
+    <string name="Infinite">Бесконечнo</string>
+    <string name="Correct">Правильно</string>
+    <string name="True">Истинно</string>
+    <string name="False">Ложь</string>
+    <string name="View">Просмотр</string>
+    <string name="Get_more_diamonds">Получить больше бриллиантов</string>
+    <string name="get_app">Cкачать приложение</string>
+
+    //Helicopter Game
+    <string name="Yes">Да</string>
+    <string name="Exit">Выход</string>
+    <string name="Continue">Продолжить</string>
+    <string name="Play">Играть</string>
+    <string name="Shop">Магазин</string>
+    <string name="Miscellaneous">Разное</string>
+    <string name="Buy">Купить</string>
+    <string name="Too_poor">Cлишком бедный</string>
+    <string name="Already_purchased">Уже куплено</string>
+    <string name="Successfully_purchased">Куплено успешно</string>
+    <string name="Default_Helicopter">Вертолет по умолчанию</string>
+    <string name="Game_Over">Игра окончена</string>
+    <string name="Pay_1_to_revive">Заплатите 1📀, чтобы оживить</string>
+    <string name="You_got_a_refund">Вы получили это 1📀 обратно</string>
+    <string name="Something_went_wrong">Что-то пошло не так</string>
+    <string name="No">Нет</string>
+    <string name="Get">Получить 📀</string>
+    <string name="You_have_0_tokens">У вас 0📀</string>
+    <string name="Blue_Helicopter">Синий вертолет</string>
+    <string name="White_Helicopter">Белый вертолет</string>
+    <string name="Gray_Helicopter">Серый вертолет</string>
+    <string name="Green_Helicopter">Зеленый вертолет</string>
+    <string name="Red_Helicopter">Красный вертолет</string>
+    <string name="Start_your_game_with_1_rocket">Начните игру с 1 ракетой</string>
+    <string name="_Hearts">4 сердца</string>
+    <string name="Nice_Color">Приятный цвет</string>
+    <string name="Starter_Helicopter">Начальный вертолет</string>
+    <string name="Added_10_diamonds">+10💎</string>
+    <string name="done">Готовo</string>
+</resources>

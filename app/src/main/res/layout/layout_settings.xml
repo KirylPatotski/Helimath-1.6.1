@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:id="@+id/scroll_view">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="64dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="start"
+            android:text="@string/credits_Text"
+            />
+
+
+        <CheckBox
+            android:id="@+id/darkModeCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scrollView"
+            android:text="@string/dark_mode"
+            android:checked="true"
+            android:layoutDirection="rtl"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:buttonTint="@color/default_color"
+            />
+        <CheckBox
+            android:id="@+id/vibrationsCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/darkModeCheckBox"
+            android:text="@string/vibrations"
+            android:checked="true"
+            android:layoutDirection="rtl"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:buttonTint="@color/default_color"
+
+            />
+
+        <CheckBox
+            android:id="@+id/soundCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/vibrationsCheckBox"
+            android:text="@string/sound"
+            android:checked="true"
+            android:layoutDirection="rtl"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:buttonTint="@color/default_color"
+            />
+
+        <CheckBox
+            android:id="@+id/notification_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:buttonTint="@color/default_color"
+            android:checked="true"
+            android:text=""
+            android:layoutDirection="rtl"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/soundCheckBox" />
+
+        <Button
+            android:id="@+id/languageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/default_color"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_view" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            app:layout_constraintTop_toBottomOf="@id/notification_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp">
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/privacyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_policy"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/infoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/emailButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📧"
+                    />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/youtubeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YouTube"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/fps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FPS 📺"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/tiktok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TikTok"/>
+
+            </com.google.android.material.chip.ChipGroup>
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/diagram_settings_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/languageButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            app:cardElevation="16dp">
+
+            <include layout="@layout/layout_diagram_settings" />
+        </FrameLayout>
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/default_color"
+            android:text="@string/Continue"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/diagram_settings_card_view"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="1000000dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="100000dp"
+            android:text="10%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="200000dp"
+            android:text="20%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="300000dp"
+            android:text="30%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="400000dp"
+            android:text="40%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="500000dp"
+            android:text="50%"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="600000dp"
+            android:text="60%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="700000dp"
+            android:text="70%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="800000dp"
+            android:text="80%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="900000dp"
+            android:text="90%"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="990000dp"
+            android:text="99%"/>
+
+
+
+        <Button
+            android:id="@+id/surprise_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/continue_button"
+            android:layout_marginTop="999990dp"
+            android:text="+100💎"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

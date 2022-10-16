@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppTheme">
+
+    <ScrollView
+        android:id="@+id/privacy_text_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        >
+    <TextView
+        android:id="@+id/privacy_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n\n
+Contact\n\n
+Kiryl Patotski\n
+Germany\n
+02763 Zittau\n
+Juststraße 5\n\nEmail:
+k.patotski@outlook.com\n\nDisclaimer
+I, Kiryl Patotski am not responsible for any kind of damage done by using this app.\n\n\n
+Fun facts\n
+Estimated time to create this app: ≺200h\n
+Money made: 0€\n\n\n
+Credits\n
+CC 0 Sounds\n
+freesound.org/people/TheBuilder15/sounds/415762/\n
+freesound.org/people/LittleRainySeasons/sounds/335908/\n
+freesound.org/people/Raclure/sounds/483598/\n\Confetti\n
+github.com/ultimateHandsomeBoy666/Particle/blob/main/app/src/main/java/com/bullfrog/particle/MainActivity.kt
+"
+        tools:ignore="HardcodedText" />
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
