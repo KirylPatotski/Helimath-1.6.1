@@ -1,4 +1,4 @@
-# Helimath 1.6.2
+# Helimath 1.6.1
 This was the first version, where the app got its biggest update. This was my very first real project and here is its code.
 I appreciate its simplicity, now there is way more code!
 
